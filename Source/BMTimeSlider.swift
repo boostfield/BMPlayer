@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class BMTimeSlider: UISlider {
+open class BMTimeSlider: UISlider {
     override open func trackRect(forBounds bounds: CGRect) -> CGRect {
         let trackHeight: CGFloat = 2
         let position = CGPoint(x: 0, y: 14)
